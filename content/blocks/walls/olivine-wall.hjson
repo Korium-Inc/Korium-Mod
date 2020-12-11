@@ -1,0 +1,8 @@
+type:Wall
+health:800
+size:1
+requirements:[
+olivine/8
+]
+research: thorium-wall
+category: defense

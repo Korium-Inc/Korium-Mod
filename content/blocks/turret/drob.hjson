@@ -1,0 +1,64 @@
+type:itemTurret
+range: 230
+recoil: 28
+reloadTime: 50
+size: 3
+shots: 5
+health: 1600
+inaccuracy: 1
+liquidBoostIntensity: 1.7
+rotatespeed: 0.9
+targetAir: true
+targetGround: true
+ammoTypes: {
+  thorium: {
+  	bulletType: standardThorium
+    damage: 82
+    width: 7
+    height: 5
+  	ammoMultiplier: 7
+  	hitSize: 12
+  	lifetime: 72
+  	pierce: true
+  	collidesAir: true
+  	statusDuration: 80
+  	shootEffect: shootPyraFlame
+  	hitEffect: hitFlameSmall
+  	status: burning
+  	hittable: false 
+  }
+   siron: {
+  	bulletType: standardThorium
+    damage: 203
+    width: 7
+    height: 5
+  	ammoMultiplier: 1
+  	hitSize: 18
+  	lifetime: 80
+  	pierce: true
+  	collidesAir: true
+  	statusDuration: 80
+  	shootEffect: shootPyraFlame
+  	hitEffect: hitFlameSmall
+  	status: burning
+  	hittable: false 
+  } 
+}
+consumes: {
+power: 1
+ liquid: {
+  liquid: water
+  amount: 0.2
+  booster: true
+  optional: false
+  }
+}
+requirements: [
+  siron/150
+  plastanium/150
+  silicon/500
+  titanium/180
+  metaglass/140
+]
+ category: turret
+ research: salvo

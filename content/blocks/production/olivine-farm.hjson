@@ -1,0 +1,29 @@
+type: GenericCrafter
+outputItem: olivine/3
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 10
+hasItems: true
+itemCapacity: 10
+craftTime: 25
+updateEffect: steam
+consumes: {
+  power: 1
+  liquid: water/0.6
+  items: {
+    items: [
+      thorium/2
+	  lead/4
+  ]
+ }
+}
+requirements: [
+	veton/80
+	thorium/50
+	lead/25
+]
+category: crafting
+research: router
+idleSound: respawning
+idleSoundVolume: 0.5
