@@ -1,0 +1,16 @@
+type: solidPump
+rotateSpeed: 1.4
+size: 2
+hasLiquid: true
+liquidCapacity: 20
+requirements:[
+copper/25
+graphite/25
+lead/20
+]
+outputLiquid: water/0.3
+consumes:{
+ power:0.8
+}
+category:production
+research:router
