@@ -1,0 +1,8 @@
+type: Wall
+health:1900
+size:2
+requirements:[
+olivine/24
+]
+Research: olivine-wall
+category: defense

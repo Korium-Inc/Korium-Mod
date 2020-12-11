@@ -1,0 +1,44 @@
+type:itemTurret
+range: 230
+recoil: 28
+reloadTime: 50
+size: 2
+shots: 5
+health: 1600
+inaccuracy: 6
+liquidBoostIntensity: 1.7
+rotatespeed: 0.9
+targetAir: true
+targetGround: true
+ammoTypes: {
+  korium: {
+    type: basicBulletType
+    speed: 5
+    hitSize: 30
+    lifetime: 54
+    status:unmoving
+    statusDuration:42
+    pierce: true
+    width: 64
+    length: 4
+	hittable: true
+  }
+}
+consumes: {
+power: 11.4
+ liquid: {
+  liquid: water
+  amount: 0.2
+  booster: true
+  optional: false
+  }
+}
+requirements: [
+  siron/150
+  plastanium/150
+  silicon/500
+  titanium/180
+  metaglass/140
+]
+ category: turret
+ research: salvo

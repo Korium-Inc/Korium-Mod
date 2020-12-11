@@ -1,0 +1,23 @@
+type: GenericCrafter
+outputItem: hidrogenium/2
+size: 3
+hasPower: true
+hasLiquid: true
+liquidCapacity: 10
+hasItems: true
+itemCapacity: 5
+craftTime: 50
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  liquid: water/0.4
+}
+requirements: [
+    olivine/30
+	veton/120
+    thorium/10 
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
