@@ -1,8 +1,0 @@
-type:Wall
-health:2460
-size:1
-requirements:[
-siron/8
-]
-category:defense
-research:surge-wall
